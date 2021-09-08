@@ -1,6 +1,6 @@
 const express = require("express"),
     app = express(),
-    chalk = require('chalk'),
+    chalk = require('chalk'), 
     figlet = require('figlet'),
     d_id = figlet.textSync("DISCORD.ID")
 config = require("./config"),
